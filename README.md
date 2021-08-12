@@ -7,7 +7,7 @@ quantization for yolo with xilinx/vitis-ai-pytorch
 
 ### Model
 - Model: yolov4-tiny pruned with [this project](https://github.com/tanluren/yolov3-channel-and-layer-pruning) or other yolo models
-- Dataset: coco2017
+- Dataset: coco2017, with darknet format
 - Input format: .cfg + .pt/.weights
 
 ### Errors
