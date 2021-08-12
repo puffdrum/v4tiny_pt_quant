@@ -1,5 +1,5 @@
 # v4tiny_pt_quant
-quantization for yolo with xilinx/vitis-ai-pytorch
+Quantization for yolo with xilinx/vitis-ai-pytorch
 
 ### Tool 
 - Quantization tool: xilinx/vitis-ai:latest, [vitis-ai-pytorch](https://www.xilinx.com/html_docs/vitis_ai/1_3/pytorch.html#nvh1592318322520)
