@@ -2,13 +2,13 @@
 quantization for yolo with xilinx/vitis-ai-pytorch
 
 ### Tool 
-Quantization tool: xilinx/vitis-ai:latest, [vitis-ai-pytorch](https://www.xilinx.com/html_docs/vitis_ai/1_3/pytorch.html#nvh1592318322520)
-Environment setup: [Vitis-AI](https://github.com/Xilinx/Vitis-AI)
+- Quantization tool: xilinx/vitis-ai:latest, [vitis-ai-pytorch](https://www.xilinx.com/html_docs/vitis_ai/1_3/pytorch.html#nvh1592318322520)
+- Environment setup: [Vitis-AI](https://github.com/Xilinx/Vitis-AI)
 
 ### Model
-Model: yolov4-tiny pruned with [this project](https://github.com/tanluren/yolov3-channel-and-layer-pruning) or other yolo models
-Dataset: coco2017
-Input format: .cfg + .pt/.weights
+- Model: yolov4-tiny pruned with [this project](https://github.com/tanluren/yolov3-channel-and-layer-pruning) or other yolo models
+- Dataset: coco2017
+- Input format: .cfg + .pt/.weights
 
 ### Errors
-Error unfixed: `aten_op 'view' parse failed(the layout of activation of reshape is ambiguous)`
+- Error unfixed: `aten_op 'view' parse failed(the layout of activation of reshape is ambiguous)`
