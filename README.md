@@ -11,4 +11,4 @@ quantization for yolo with xilinx/vitis-ai-pytorch
 - Input format: .cfg + .pt/.weights
 
 ### Errors
-- Error unfixed: `aten_op 'view' parse failed(the layout of activation of reshape is ambiguous)`
+- Error unfixed: `aten_op 'view' parse failed(the layout of activation of reshape is ambiguous)` when run with `python quant.py --quant_mode calib`
