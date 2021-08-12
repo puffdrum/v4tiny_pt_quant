@@ -1,0 +1,6 @@
+classes=80
+train=/workspace/v4tiny_pt_quant/data/coco/train2017.txt
+valid=/workspace/v4tiny_pt_quant/data/coco/val2017.txt
+names=/workspace/coco_img/coco.names
+backup=/workspace/v4tiny_pt_quant/backup
+eval=coco
